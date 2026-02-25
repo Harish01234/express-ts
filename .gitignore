@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 
+# Docker
+docker-compose.yml
+data/
+
 # Build output
 dist/
 build/
