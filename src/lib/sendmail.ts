@@ -138,9 +138,3 @@ export function generateOtp(): string {
   const n = Math.floor(min + Math.random() * (max - min + 1));
   return String(n);
 }
-
-sendOtp({
-  to: 'harish@visolutionz.com',
-  type: OtpType.LOGIN,
-  otp: '123456'
-});
