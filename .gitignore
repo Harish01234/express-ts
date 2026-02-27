@@ -1,8 +1,7 @@
 # Dependencies
 node_modules/
 
-# Docker
-docker-compose.yml
+
 
 # Local data (mongo, minio, etc.) - do not commit
 data/

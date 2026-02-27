@@ -1,0 +1,21 @@
+# Dependencies and build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Data and runtime
+data/
+.env
+.env.*
+!.env.example
+
+# Git and IDE
+.git/
+.idea/
+.vscode/
+*.log
+
+# Misc
+coverage/
+.nyc_output/
+*.local
